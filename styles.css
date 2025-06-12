@@ -5,13 +5,96 @@ body {
   padding: 20px;
   color: #3b1c32;
 }
+
 h1 {
   font-size: 3em;
   margin-bottom: 10px;
+  letter-spacing: 2px;
+  position: relative;
 }
+
+h1::after {
+  content: "💖";
+  margin-left: 10px;
+  font-size: 1.2em;
+  vertical-align: middle;
+}
+
+#contador, #horoscopo {
+  background: #fff0f6;
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 16px;
+  margin: 12px 0;
+  font-size: 1.2em;
+  box-shadow: 0 2px 8px rgba(255,182,193,0.15);
+}
+
+audio {
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(59,28,50,0.08);
+  width: 320px;
+  max-width: 90vw;
+}
+
+.video-retro {
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(59,28,50,0.08);
+  width: 600px;
+  max-width: 95vw;
+  height: 340px;
+  max-height: 50vw;
+  background: #000;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carrossel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.carrossel-btn {
+  background: #fff0f6;
+  border: none;
+  font-size: 2em;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  margin: 0 8px;
+  box-shadow: 0 2px 8px rgba(255,182,193,0.15);
+  transition: background 0.2s;
+}
+.carrossel-btn:hover {
+  background: #ffd6e0;
+}
+
+.galeria {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 12px;
+  padding: 10px 0;
+  max-width: 900px;
+}
+
 .galeria img {
   width: 150px;
-  margin: 10px;
+  height: 200px;
+  object-fit: cover;
   border-radius: 12px;
   box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+
+.galeria img:hover {
+  transform: scale(1.08) rotate(-2deg);
+  box-shadow: 0 0 16px rgba(255,105,180,0.3);
 }

@@ -11,18 +11,31 @@
   <p id="contador"></p>
   <p id="horoscopo"></p>
 
-  <audio controls autoplay loop>
+  <audio controls>
     <source src="assets/audio/dois_dias.mp3" type="audio/mp3">
+    Seu navegador não suporta áudio.
   </audio>
 
-  <video controls width="100%">
+  <video controls class="video-retro">
     <source src="assets/videos/video.mp4" type="video/mp4">
+    Seu navegador não suporta vídeo.
   </video>
 
-  <div class="galeria">
-    <img src="assets/fotos/1.jpg" />
-    <img src="assets/fotos/2.jpg" />
-    <!-- até 10 -->
+  <div class="carrossel">
+    <button class="carrossel-btn left" onclick="rolarCarrossel(-1)">&#8592;</button>
+    <div class="galeria" id="galeria">
+      <img src="assets/fotos/1.jpg" alt="Foto 1 do casal" />
+      <img src="assets/fotos/2.jpg" alt="Foto 2 do casal" />
+      <img src="assets/fotos/3.jpg" alt="Foto 3 do casal" />
+      <img src="assets/fotos/4.jpg" alt="Foto 4 do casal" />
+      <img src="assets/fotos/5.jpg" alt="Foto 5 do casal" />
+      <img src="assets/fotos/6.jpg" alt="Foto 6 do casal" />
+      <img src="assets/fotos/7.jpg" alt="Foto 7 do casal" />
+      <img src="assets/fotos/8.jpg" alt="Foto 8 do casal" />
+      <img src="assets/fotos/9.jpg" alt="Foto 9 do casal" />
+      <img src="assets/fotos/10.jpg" alt="Foto 10 do casal" />
+    </div>
+    <button class="carrossel-btn right" onclick="rolarCarrossel(1)">&#8594;</button>
   </div>
 
   <script src="script.js"></script>

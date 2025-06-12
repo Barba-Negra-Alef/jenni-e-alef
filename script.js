@@ -14,13 +14,13 @@ setInterval(() => {
 
 // Horóscopo do dia (mensagem muda conforme o dia da semana)
 const mensagensHoroscopo = [
-  `🌟 Segunda: Sagitário e Virgem começam a semana com energias renovadas e muito carinho.`,
-  `🌟 Terça: O universo conspira para momentos de alegria e cumplicidade entre vocês.`,
-  `🌟 Quarta: O amor de Sagitário e Virgem está mais forte, superando qualquer obstáculo.`,
-  `🌟 Quinta: Dia perfeito para relembrar bons momentos e planejar o futuro juntos.`,
-  `🌟 Sexta: O romance está no ar! Aproveitem para celebrar o amor.`,
-  `🌟 Sábado: Diversão e sintonia marcam o dia desse casal incrível.`,
-  `🌟 Domingo: Descanso, aconchego e muito amor para Sagitário e Virgem.`
+  `🌟 Sorte do dia: Sagitário e Virgem começam a semana com energias renovadas e muito carinho.`,
+  `🌟 Sorte do dia: O universo conspira para momentos de alegria e cumplicidade entre vocês.`,
+  `🌟 Sorte do dia: O amor de Sagitário e Virgem está mais forte, superando qualquer obstáculo.`,
+  `🌟 Sorte do dia: Dia perfeito para relembrar bons momentos e planejar o futuro juntos.`,
+  `🌟 Sorte do dia: O romance está no ar! Aproveitem para celebrar o amor.`,
+  `🌟 Sorte do dia: Diversão e sintonia marcam o dia desse casal incrível.`,
+  `🌟 Sorte do dia: Descanso, aconchego e muito amor para Sagitário e Virgem.`
 ];
 const diaSemana = new Date().getDay(); // 0 = domingo, 1 = segunda, ...
 document.getElementById("horoscopo").textContent =

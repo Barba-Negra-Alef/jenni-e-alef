@@ -22,9 +22,7 @@ const mensagensHoroscopo = [
   `🌟 Sorte do dia: Diversão e sintonia marcam o dia desse casal incrível.`,
   `🌟 Sorte do dia: Descanso, aconchego e muito amor para Sagitário e Virgem.`
 ];
-const diaSemana = new Date().getDay(); // 0 = domingo, 1 = segunda, ...
-document.getElementById("horoscopo").textContent =
-  mensagensHoroscopo[diaSemana];
+
 
 // Carrossel de fotos: rolar para o lado
 function rolarCarrossel(direcao) {

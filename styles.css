@@ -1,0 +1,17 @@
+body {
+  background: linear-gradient(to bottom, #ffe6f0, #fff);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  padding: 20px;
+  color: #3b1c32;
+}
+h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+.galeria img {
+  width: 150px;
+  margin: 10px;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+}

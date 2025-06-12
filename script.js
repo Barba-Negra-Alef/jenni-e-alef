@@ -13,7 +13,6 @@ setInterval(() => {
 }, 1000);
 
 // Horóscopo do dia (mensagem muda conforme o dia da semana)
-const signos = { alef: "Sagitário", jenni: "Virgem" };
 const mensagensHoroscopo = [
   `🌟 Segunda: Sagitário e Virgem começam a semana com energias renovadas e muito carinho.`,
   `🌟 Terça: O universo conspira para momentos de alegria e cumplicidade entre vocês.`,

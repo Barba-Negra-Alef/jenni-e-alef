@@ -38,18 +38,15 @@ audio {
   max-width: 90vw;
 }
 
-.video-retro {
-  margin: 20px 0;
-  border-radius: 10px;
-  box-shadow: 0 2px 12px rgba(59,28,50,0.08);
-  width: 600px;
-  max-width: 95vw;
-  height: 340px;
-  max-height: 50vw;
-  background: #000;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.texto-romantico {
+  background: #fff0f6;
+  margin: 24px auto;
+  padding: 24px 16px;
+  border-radius: 18px;
+  max-width: 700px;
+  font-size: 1.25em;
+  box-shadow: 0 2px 12px rgba(255,182,193,0.10);
+  line-height: 1.7;
 }
 
 .carrossel {
